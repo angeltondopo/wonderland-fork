@@ -17,15 +17,11 @@
     align-items: center;
 }
 
-.nav-container-icon--blanco{
-    filter: invert(1);
-}
-
 .nav-container-icon__logo{
     width: 6.5rem;
     height: 3.8rem;
     justify-self: center;
-    background-image: url(../assets/images/imgs/Alice_in_Wonderland.svg);
+    background-image: url(../assets/images/imgs/aliceInWonderland.png);
     background-repeat:no-repeat;
     background-size: contain;
 }
@@ -36,8 +32,8 @@
     background-image: url(../assets/images/icons/sonido.png);
     background-repeat:no-repeat;
     background-size: contain;
+    filter: invert(1);
 }
-
 
 /*las barras*/
 

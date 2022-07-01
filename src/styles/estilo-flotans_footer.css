@@ -73,6 +73,7 @@
     border: none;
     background-color: rgba(255, 255, 255, 0.8);
     color: rgba(193, 30, 49,0.8);
+    font-family: 'Alice_wonder', sans-serif;
 }
 
 /*footer*/
@@ -83,13 +84,12 @@
     bottom: 0;
     padding: 1rem 0;
     background-color: rgb(1, 2, 4);
-    font-size: 1rem;
+    font-size: 1.3rem;
     text-align: center;
     color: rgb(255, 180, 180);
 }
 footer figure{
     filter: invert(1);
-    
 }
 
 .footer a:link{

@@ -11,39 +11,38 @@
     <link rel="stylesheet" href="./src/styles/estilo-flotans_footer.css">
     <link rel="stylesheet" href="./src/styles/other-media/tablet.css" media="(min-width: 598px)">
     <link rel="stylesheet" href="./src/styles/other-media/destok.css" media="(min-width: 1020px)">
-    <title>Desafio</title>
+    <link rel="shortcut icon" href="./src/assets/images/imgs/catAlice.png">
+    <title>ALICE IN WONDERLAND</title>
 </head>
 <body>
     <header>
         <nav class="header-nav">
             <div class="header-nav--left header-nav--up">
-                
-                <div class="nav-container-icon--blanco nav-container-icon nav-container-icon__song play" 
-                  onclick="onClickPause_Play()">
+                <div class="nav-container-icon--blanco nav-container-icon nav-container-icon__song play" onclick="onClickPause_Play()">
                     <audio class="audio_alice_principal" src="./src/assets/audio/alices_theme.mp3" autoplay>
                 </div>
                 <div class="nav-container-icon--blanco nav-container-icon nav-container-icon__logo"></div>
-                
+
             </div>
             <input type="checkbox" id="nav__checked-burguer" class="nav__checked-burguer"/>
                 <label class="nav__checked-burguer-container" for="nav__checked-burguer">
                     <div class="nav-container-icon--blanco icon-hamburguesa" ></div>
                 </label>
-            
-            <div class="header-nav--right header-nav--down">              
+
+            <div class="header-nav--right header-nav--down">
                 <ul class="header-nav--right-list">
-                    <li><a href="https://aliceinwonderland.fandom.com/es/wiki/Alicia">About as</a></li>
-                    <li><a href="https://aliceinwonderland.fandom.com/es/wiki/La_Madriguera_del_Conejo_Blanco">Madriguera</a</li>
-                    <li><a href="https://www.ucm.es/data/cont/docs/119-2014-02-19-Carroll.AliciaEnElPaisDeLasMaravillas.pdf">Libro</a></li>
-                    <li><a href="https://www.facebook.com/aliceinwonderlandofficialbook/community/?ref=page_internal&mt_nav=0&_rdr">Comunity</a></li>
+                    <li><a href="https://aliceinwonderland.fandom.com/wiki/Alice" target="_blank">About Alice</a></li>
+                    <li><a href="https://aliceinwonderland.fandom.com/wiki/Rabbit_Hole" target="_blank">Rabbit Hole</a</li>
+                    <li><a href="https://www.adobe.com/be_en/active-use/pdf/Alice_in_Wonderland.pdf" target="_blank">Book</a></li>
+                    <li><a href="https://www.facebook.com/aliceinwonderlandofficialbook/community/?ref=page_internal&mt_nav=0&_rdr" target="_blank">Comunity</a></li>
                 </ul>
-            </div> 
+            </div>
         </nav>
     </header>
     <button type="button" class="contenido-central-button" onclick="onClickMe()" >CLICK ME!</button>
-    <main class="contenido-central">      
+    <main class="contenido-central">
         <aside class="contenido-central-main">
-            
+
             <figure class="contenido-main--imagen">
                 <img src="./src/assets/images/imgs/alicia-mini.png" alt="imagen-alicia">
             </figure>
@@ -55,7 +54,7 @@
             </p>
             <div class="container_credits">
                 <div class="credits">
-                    <LEWIS>ALICIA IN THE WONDERLAND <br>-LEWIS CARROLL</p>
+                    <LEWIS>ALICE IN WONDERLAND <br>-LEWIS CARROLL</p>
                 </div>
             </div>
         </aside>
@@ -80,10 +79,9 @@
             </div>
         </aside>
     </main>
-    
     <footer class="footer">
-        <address>Creado con cariño por <figure><img src="./src/assets/images/icons/github.png" alt="icono de github" href="https://github.com/CristiGB"></figure> 
-            <a href="https://github.com/CristiGB"> CristiGB </a> </address>
+        <address>Created and designed with love for<figure><a href="https://github.com/CristiGB" target="_blank" rel="noopener noreferrer"><img src="./src/assets/images/icons/github.png" alt="icono de github"></a></figure>
+            <a href="https://github.com/CristiGB" target="_blank"> CristiGB </a> </address>
     </footer>
     <script src="./src/utils/animated_clickme.js"></script>
     <script src="./src/utils/controls_audio.js"></script>
